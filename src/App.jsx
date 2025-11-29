@@ -2,8 +2,8 @@ import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      
+    <div className='mt-5 text-gray-700'>
+      jvbij klvbn
     </div>
   )
 }
