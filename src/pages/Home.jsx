@@ -33,9 +33,7 @@ const Home = () => {
           {recentScans.map((scan, i) => (
             <li key={i}>
               {scan.time} - {scan.student} - {scan.device} -{" "}
-              <span className={scan.result === "Valid" ? "text-green-600" : "text-red-600"}>
-                {scan.result}
-              </span>
+              
             </li>
           ))}
         </ul>
