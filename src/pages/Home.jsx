@@ -9,10 +9,10 @@ const Home = () => {
   const [alerts, setAlerts] = useState([]);
 
   const stats = [
-    { label: "Total Scans ", value: 120 },
-    { label: "Valid Entries", value: 110 },
-    { label: "Blocked Devices", value: 5 },
-    { label: "Suspicious Attempts", value: 5 },
+    { label: "Total Scans ", value: 22 },
+    { label: "Valid Entries", value: 22 },
+    { label: "Blocked Devices", value: 25 },
+    { label: "Suspicious Attempts", value: 45 },
   ]
 
 
