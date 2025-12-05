@@ -11,9 +11,7 @@ const Navbar = () => {
     <nav className="w-full bg-white shadow-sm px-4 py-3 flex items-center justify-between">
   
   {/* Left Logo */}
-  <div className="flex-1">
-    
-  </div>
+  
 
   {/* Right Side */}
   <div className="flex items-center gap-3">
