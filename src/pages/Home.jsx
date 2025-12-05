@@ -19,6 +19,7 @@ const Home = () => {
   return (
     <div>   
       <div className="min-h-screen bg-gray-100">
+      <h1 className="text-3xl font-bold text-center">Security Dashboard</h1>
         {/* QR Scanner */}
       <div className="bg-white p-4 rounded-lg shadow-lg mb-6 w-96">
         <h2 className="text-xl font-semibold mb-4">QR Code Scanner</h2>
