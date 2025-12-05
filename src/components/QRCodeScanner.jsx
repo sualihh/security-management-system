@@ -43,16 +43,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
     <div className="flex flex-col items-center justify-center">
       
       {scanning && (
-        <div className="flex flex-col items-center w-full">
-          {/* Live Camera Feed */}
-          
-
-          {/* Stop Scan Button */}
-         
-
-          {/* Display last scanned QR on screen */}
-         
-        </div>
+        
       )}
     </div>
   );
