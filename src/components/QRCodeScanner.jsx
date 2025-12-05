@@ -51,9 +51,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
          
 
           {/* Display last scanned QR on screen */}
-          {scanResult && (
-            
-          )}
+         
         </div>
       )}
     </div>
