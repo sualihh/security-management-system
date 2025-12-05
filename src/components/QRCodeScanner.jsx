@@ -46,14 +46,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
         <div className="flex flex-col items-center w-full">
           {/* Live Camera Feed */}
           <div className="w-full max-w-md border rounded-lg overflow-hidden shadow-lg">
-            <QrReader
-              onResult={(result, error) => {
-                if (!!result) handleScan(result?.text);
-                if (!!error && error.name !== "NotFoundException") handleError(error);
-              }}
-              constraints={{ facingMode: "environment" }}
-              className="w-full h-96"
-            />
+            
           </div>
 
           {/* Stop Scan Button */}
