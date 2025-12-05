@@ -35,7 +35,9 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
     }
   };
 
- 
+  const handleError = (err) => {
+    console.error(err);
+  };
 
   return (
     <div className="flex flex-col items-center justify-center">
