@@ -42,7 +42,12 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
   return (
     <div className="flex flex-col items-center justify-center">
       {!scanning && (
-        
+        <button
+          onClick={() => setScanning(true)}
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 mb-4"
+        >
+          Start Scan
+        </button>
       )}
 
       {scanning && (
