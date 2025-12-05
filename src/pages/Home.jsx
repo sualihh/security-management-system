@@ -23,7 +23,6 @@ const Home = () => {
         {/* QR Scanner */}
       <div className="bg-white p-4 rounded-lg shadow-lg mb-6 w-96">
         <h2 className="text-xl font-semibold mb-4">QR Code Scanner</h2>
-        <QRCodeScanner setRecentScans={setRecentScans} setAlerts={setAlerts} />
       </div>
 
       {/* Recent Scans */}
