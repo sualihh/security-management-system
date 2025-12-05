@@ -40,6 +40,7 @@ const Home = () => {
           ))}
         </ul>
       </div>
+      <Stats stats={stats} />
       {/* Other components like QR Scanner and recent logs */}
     </div>
     </div>
