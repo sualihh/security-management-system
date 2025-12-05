@@ -24,11 +24,7 @@ const Navbar = () => {
   <div className="flex items-center gap-3">
 
     {/* Search Input */}
-    <input
-      type="text"
-      placeholder="Search user "
-      className="border border-gray-300 rounded px-2 py-1 w-24 md:w-48 lg:w-68 focus:outline-none focus:ring focus:ring-blue-300"
-    />
+    
 
     {/* Avatar Dropdown */}
     <div className="relative group">
