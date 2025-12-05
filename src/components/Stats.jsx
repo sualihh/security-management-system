@@ -8,7 +8,6 @@ const Stats = ({ stats }) => {
           key={index} 
           className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center justify-center"
         >
-          <p className="text-gray-500 text-sm">{stat.label}</p>
         </div>
       ))}
     </div>
