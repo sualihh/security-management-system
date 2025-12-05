@@ -12,12 +12,7 @@ const Navbar = () => {
   
   {/* Left Logo */}
   <div className="flex-1">
-    <a className="text-xl font-semibold cursor-pointer">
-      <img
-          className="w-10 h-10 object-cover"
-          src={assets.wollo_logo}
-          alt="smart"
-        />WOLLO</a>
+    
   </div>
 
   {/* Right Side */}
