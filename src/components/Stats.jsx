@@ -8,7 +8,8 @@ const Stats = ({ stats }) => {
           key={index} 
           className="bg-white shadow-lg rounded-lg p-6 flex flex-col items-center justify-center"
         >
-          
+          <p className="text-gray-500 text-sm">{stat.label}</p>
+          <p className="text-2xl font-bold text-gray-800">{stat.value}</p>
         </div>
       ))}
     </div>
