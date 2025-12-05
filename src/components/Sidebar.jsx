@@ -9,9 +9,7 @@ const Sidebar = () => {
             
             
             
-            <NavLink to="/device-list" className="   bg-gray-200 py-2 px-6 border-3 border-gray-300 flex items-center border-r-0  rounded-l">
-            <p>Home</p>
-            </NavLink>
+            
             
         </div>
     </div>
