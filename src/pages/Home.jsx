@@ -27,7 +27,6 @@ const Home = () => {
 
       {/* Recent Scans */}
       <div className="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <h2 className="text-xl font-semibold mb-4">Recent Scans</h2>
         <ul>
           {recentScans.map((scan, i) => (
             <li key={i}>
