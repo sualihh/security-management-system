@@ -24,13 +24,7 @@ const Navbar = () => {
     />
 
     {/* Avatar Dropdown */}
-    <div className="relative group">
-
-      
-
-      
-
-    </div>
+    
   </div>
   
 </nav>
