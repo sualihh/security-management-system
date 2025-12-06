@@ -10,7 +10,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       setScanResult(data);
 
       // Example: Validate QR code
-      
+      const isValid = data.includes("approved"); // replace with backend check
 
       
       
