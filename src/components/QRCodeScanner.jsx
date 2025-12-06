@@ -26,7 +26,6 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       // Add alert if suspicious
       
 
-      // Optional: stop scanning after one scan
     }
   };
 
