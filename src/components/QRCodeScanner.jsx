@@ -24,12 +24,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       ]);
 
       // Add alert if suspicious
-      if (!isValid) {
-        setAlerts((prev) => [
-          `Suspicious QR scanned at ${new Date().toLocaleTimeString()}`,
-          ...prev,
-        ]);
-      }
+      
 
       // Optional: stop scanning after one scan
       // setScanning(false);
