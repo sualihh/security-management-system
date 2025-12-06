@@ -47,10 +47,7 @@ const Navbar = () => {
           {/* <span className="text-xs bg-blue-600 text-white px-2 rounded">New</span> */}
         </li>
 
-        {/* <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-          <Link to="/my-a"></Link>
-          Settings
-        </li> */}
+        
 
         
       </ul>
