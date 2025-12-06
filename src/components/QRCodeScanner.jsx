@@ -36,7 +36,9 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
     }
   };
 
-  
+  const handleError = (err) => {
+    console.error(err);
+  };
 
   return (
     <div >
