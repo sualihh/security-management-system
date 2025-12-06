@@ -66,7 +66,10 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
           </div>
 
           {/* Stop Scan Button */}
-          
+          <button
+            
+          >
+          </button>
 
           
         </div>
