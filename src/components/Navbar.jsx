@@ -39,7 +39,15 @@ const Navbar = () => {
       </div>
 
       {/* Dropdown Menu */}
-      
+      <ul
+        className="absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg hidden group-focus-within:block group-hover:block"
+      >
+        
+
+        
+
+        
+      </ul>
 
     </div>
   </div>
