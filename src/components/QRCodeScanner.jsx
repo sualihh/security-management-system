@@ -27,7 +27,6 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       
 
       // Optional: stop scanning after one scan
-      // setScanning(false);
     }
   };
 
