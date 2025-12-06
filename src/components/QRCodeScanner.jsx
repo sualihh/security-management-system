@@ -56,12 +56,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
           {/* Live Camera Feed */}
           <div className="w-full max-w-md border rounded-lg overflow-hidden shadow-lg">
             
-          </div>
-
           
-
-          
-        </div>
       )}
     </div>
   );
