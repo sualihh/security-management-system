@@ -56,10 +56,6 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
           {/* Live Camera Feed */}
           <div className="w-full max-w-md border rounded-lg overflow-hidden shadow-lg">
             <QrReader
-              onResult={(result, error) => {
-                if (!!result) handleScan(result?.text);
-                if (!!error && error.name !== "NotFoundException") handleError(error);
-              }}
              
             />
           </div>
