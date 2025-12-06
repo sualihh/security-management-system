@@ -54,7 +54,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       {scanning && (
         <div className="flex flex-col items-center w-full">
           {/* Live Camera Feed */}
-          <div >
+          
             
           
       )}
