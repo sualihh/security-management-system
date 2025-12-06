@@ -13,10 +13,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
       const isValid = data.includes("approved"); // replace with backend check
 
       // Update recent scans table automatically
-      setRecentScans((prev) => [
-        
-      ]);
-
+      
       
 
     }
