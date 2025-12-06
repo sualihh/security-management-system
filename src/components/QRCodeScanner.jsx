@@ -60,8 +60,7 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
                 if (!!result) handleScan(result?.text);
                 if (!!error && error.name !== "NotFoundException") handleError(error);
               }}
-              constraints={{ facingMode: "environment" }}
-              className="w-full h-96"
+             
             />
           </div>
 
