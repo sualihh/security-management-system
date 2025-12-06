@@ -42,7 +42,9 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      
+      {!scanning && (
+        
+      )}
 
       
     </div>
