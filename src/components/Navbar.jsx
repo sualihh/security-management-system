@@ -42,9 +42,7 @@ const Navbar = () => {
       <ul
         className="absolute right-0 mt-2 w-40 bg-white border rounded shadow-lg hidden group-focus-within:block group-hover:block"
       >
-        <li className="px-4 py-2 hover:bg-gray-100 flex justify-between cursor-pointer">
-          
-        </li>
+        
 
         
 
