@@ -31,7 +31,11 @@ const Navbar = () => {
         tabIndex={0}
         className="cursor-pointer rounded-full overflow-hidden border hover:border-gray-400"
       >
-        
+        <img
+          className="w-10 h-10 object-cover"
+          src="/"
+          alt="smart"
+        />
       </div>
 
       
