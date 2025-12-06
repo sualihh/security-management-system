@@ -44,7 +44,7 @@ const Navbar = () => {
       >
         <li className="px-4 py-2 hover:bg-gray-100 flex justify-between cursor-pointer">
           Profile
-          {/* <span className="text-xs bg-blue-600 text-white px-2 rounded">New</span> */}
+          
         </li>
 
         
