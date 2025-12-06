@@ -75,7 +75,8 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
 
           {/* Display last scanned QR on screen */}
           {scanResult && (
-            
+            <p className="mt-2 text-gray-700">
+            </p>
           )}
         </div>
       )}
