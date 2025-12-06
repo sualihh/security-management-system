@@ -14,7 +14,13 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
 
       // Update recent scans table automatically
       setRecentScans((prev) => [
-        
+        {
+          time: new Date().toLocaleTimeString(),
+          student: "John Doe", // ideally from QR or backend
+          device: "MAC: xx:xx:xx",
+          result: isValid ? "Valid" : "Suspicious",
+        },
+        ...prev,
       ]);
 
       
