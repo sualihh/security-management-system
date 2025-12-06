@@ -6,7 +6,14 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
   const [scanning, setScanning] = useState(false);
 
   const handleScan = (data) => {
-   s
+    if (data) {
+     
+      
+
+      
+      
+
+    }
   };
 
   
