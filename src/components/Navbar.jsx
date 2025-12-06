@@ -27,7 +27,12 @@ const Navbar = () => {
     <div className="relative group">
 
       {/* Avatar Button */}
-      
+      <div
+        tabIndex={0}
+        className="cursor-pointer rounded-full overflow-hidden border hover:border-gray-400"
+      >
+        
+      </div>
 
       
 
