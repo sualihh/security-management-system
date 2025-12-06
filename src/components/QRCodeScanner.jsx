@@ -23,7 +23,6 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
         ...prev,
       ]);
 
-      // Add alert if suspicious
       
 
     }
