@@ -7,9 +7,9 @@ const QRCodeScanner = ({ setRecentScans, setAlerts }) => {
 
   const handleScan = (data) => {
     if (data) {
-     setScanResult(data);
+      setScanResult(data);
 
-      // Example: Validate QR  code
+      // Example: Validate QR code
       
 
       
